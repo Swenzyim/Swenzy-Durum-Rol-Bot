@@ -1,7 +1,7 @@
 const { Client, Partials, PermissionsBitField, ActivityType, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const cfg = require('./config'); // Bu yolun doğru olduğundan emin olun
 
-
+```
  _______      ___    ___ ________  ________  ________  _______      
 |\  ___ \    |\  \  /  /|\   ____\|\   __  \|\   ___ \|\  ___ \     
 \ \   __/|   \ \  \/  / | \  \___|\ \  \|\  \ \  \_|\ \ \   __/|    
@@ -9,8 +9,8 @@ const cfg = require('./config'); // Bu yolun doğru olduğundan emin olun
   \ \  \_|\ \  /     \/   \ \  \____\ \  \\\  \ \  \_\\ \ \  \_|\ \ 
    \ \_______\/  /\   \    \ \_______\ \_______\ \_______\ \_______\
     \|_______/__/ /\ __\    \|_______|\|_______|\|_______|\|_______|
-             |__|/ \|__|                                            
-
+             |__|/ \|__|     
+```
 
 const client = new Client({
   intents: [
@@ -93,7 +93,7 @@ client.on('presenceUpdate', async (oldPresence, newPresence) => {
         .setAuthor({ name: `${member.user.tag}`, iconURL: member.user.displayAvatarURL() })
         .setDescription('Bir kişi daha aramıza katıldı 🎉')
         .addFields(
-          { name: '• Gerekli roller, üyenin\'un/in durum mesajını /discord.gg/siyahbeyaz nedeniyle kendisine verildi.', value: '\u200B' },
+          { name: '• Rol Verildi! Hoş geldin!', value: '\u200B' },
           
           { name: 'Kullanıcı etiket:', value: `${member}`, inline: true },
           { name: '\u200B', value: '\u200B' }, // Boşluk eklemek için
