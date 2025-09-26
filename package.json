@@ -2,7 +2,7 @@
   "name": "Swenzy-Durum-Rol",
   "version": "1.0.0",
   "description": "Basit durum botu.",
-  "main": "null.js",
+  "main": "swenzy.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
