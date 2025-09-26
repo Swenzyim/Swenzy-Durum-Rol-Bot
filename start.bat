@@ -3,5 +3,5 @@ color 0f
 title null Presence
 cls
 :a
-node null.js
+node swenzy.js
 goto a
