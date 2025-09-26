@@ -10,4 +10,4 @@
 
 💬 Destek ve Topluluk
 Herhangi bir sorunla karşılaşırsanız veya yardım almak isterseniz, destek sunucumuza katılabilirsiniz:
-[![Discord Banner](https://api.weblutions.com/discord/invite/vsc/)](https://discord.gg/bdfd)
+[![Discord Banner](https://api.weblutions.com/discord/invite/bdfd/)](https://discord.gg/bdfd)
