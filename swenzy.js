@@ -1,6 +1,17 @@
 const { Client, Partials, PermissionsBitField, ActivityType, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 const cfg = require('./config'); // Bu yolun doğru olduğundan emin olun
 
+
+ _______      ___    ___ ________  ________  ________  _______      
+|\  ___ \    |\  \  /  /|\   ____\|\   __  \|\   ___ \|\  ___ \     
+\ \   __/|   \ \  \/  / | \  \___|\ \  \|\  \ \  \_|\ \ \   __/|    
+ \ \  \_|/__  \ \    / / \ \  \    \ \  \\\  \ \  \ \\ \ \  \_|/__  
+  \ \  \_|\ \  /     \/   \ \  \____\ \  \\\  \ \  \_\\ \ \  \_|\ \ 
+   \ \_______\/  /\   \    \ \_______\ \_______\ \_______\ \_______\
+    \|_______/__/ /\ __\    \|_______|\|_______|\|_______|\|_______|
+             |__|/ \|__|                                            
+
+
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
